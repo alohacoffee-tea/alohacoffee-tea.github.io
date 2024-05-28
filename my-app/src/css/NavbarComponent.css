@@ -1,0 +1,26 @@
+#navbar {
+    background-color: #2f2217;
+    position: sticky;
+}
+
+#logo {
+    width: 125px;
+    color: #f7e3cc;
+    margin-right: 30px;
+}
+
+#navbar .nav-link{
+    font-size: 20px;
+    color: #f7e3cc;
+    padding: 0px 20px 0px 20px;
+}
+
+@media (max-width: 800px) { 
+    #logo {
+        width: 80px;
+    }
+    #navbar .nav-link{
+        font-size: 15px;
+        padding: 0 5px;
+    }
+}

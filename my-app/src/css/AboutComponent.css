@@ -1,0 +1,32 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    background-color: #2f2217;
+    color: #f7e3cc;
+    padding: 50px 0px;
+}
+
+#history-summary{
+    line-height: 1.8em;
+}
+
+#about-img {
+    width: 100%;
+}
+
+#about-img-box {
+    width: 80%;
+}
+
+#about-img-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 800px) { 
+    #about-img-container {
+        justify-content: center;
+        width: 100%;
+    }
+}
